@@ -1,0 +1,191 @@
+body {
+    background: url() no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #f8f8f8;
+}
+
+.logo {
+    margin: 50px auto 0;
+    display: block;
+    width: 113px;
+    height: 49px;
+}
+
+/* #content {
+    width: 850px;
+    margin: 30px auto;
+    padding: 70px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#content {
+    border: 1px solid blue;
+}
+
+#content h2 {
+    font-size: 28px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+#content h2::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 5px;
+    height: 28px;
+    background: #e8171f;
+}
+
+#content label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#content .inner {
+    border: 1px solid rgb(224, 224, 224);
+    height: 60px;
+    background-color: #fcfcfc;
+    width: 100%;
+}
+
+#conten input {
+    width: 100%;
+} */
+#content {
+    width: 600px;
+    margin: 50px auto 150px;
+    padding: 70px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 0 40px #0000001a;
+}
+
+#content>div {
+    position: relative;
+}
+
+#content h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+#content h2 span {
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#content h2::before {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 5px;
+    height: 28px;
+    background: #d2081e;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 55%;
+    border: none;
+    height: 60px;
+    padding-left: 20px;
+    font-weight: 500;
+    background-color: #fcfcfc;
+}
+
+input#name,
+input#nick {
+    width: 100%;
+}
+
+#nametext,
+#loadtext2,
+#nametext span,
+#loadtext2 span {
+    line-height: 40px;
+    float: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+form>div {
+    margin-bottom: 20px;
+}
+
+form>div span i {
+    margin: 0 5px;
+}
+
+.name,
+.nick {
+    margin-bottom: 40px;
+}
+
+#content .inner {
+    border: 2px solid rgb(224, 224, 224);
+    height: 60px;
+    background-color: #fcfcfc;
+    width: 100%;
+}
+
+select {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+form>div span {
+    float: right;
+    font-weight: 500;
+    line-height: 60px;
+    margin-right: 10px;
+}
+
+.name,
+.nick {
+    float: left;
+    width: 49%;
+}
+
+.name {
+    margin-right: 2%;
+}
+
+.button {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.button a {
+    display: inline-block;
+    width: 200px;
+    line-height: 24px;
+    padding: 16px 0;
+    border: none;
+    background: #d2081e;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.button a:last-of-type {
+    background-color: #999;
+}

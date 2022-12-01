@@ -1,0 +1,394 @@
+<?
+  session_start();
+  @extract($_POST);
+  @extract($_GET);
+  @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>(주)대성</title>
+    <link rel="stylesheet" href="./common/css/common.css" />
+    <link rel="stylesheet" href="./maincss/main.css" />
+    <link rel="icon" href="./pavicon.ico" />
+
+    <script
+      src="https://kit.fontawesome.com/a015222d5c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./common/js/prefixfree.min.js"></script>
+    <script src="./mainjs/mainpopup.js"></script>
+  </head>
+  <body>
+    <? include "./common/main_header.html" ?>
+    <!--비주얼시작-->
+    <div class="main">
+      <div class="gallery">
+        <ul>
+          <li class="link1">
+            <img src="./common/images/gallery_1.jpg" alt="" />
+            <strong>행복을 드리는 에너지</strong>
+            <span
+              >행복에너지로 열어가는 따뜻한 세상 그 중심에 대성이 있습니다.<br />
+              더 밝은 미래로 더 넓은 세계로 함께하는 행복 에너지</span
+            >
+          </li>
+          <li class="link2">
+            <img src="./common/images/gallery_2.jpg" alt="" />
+            <strong>새로운 창조를 위한 변호와 도전</strong>
+            <span
+              >세계 초일류 종합 에너지 그룹의 모태로<br />
+              행복에너지가 넘치는 새로운 미래를 열어가겠습니다.
+            </span>
+          </li>
+
+          <li class="link3">
+            <img src="./common/images/gallery_3.jpg" alt="" />
+            <strong>미래를 가꾸는 기업</strong>
+            <span
+              >행복에너지 대성은 창조적인 사업의 성장으로<br />
+              행복의 아름드리 나무가 되어 세상의 기쁨으로 뿌리내리겠습니다.
+            </span>
+          </li>
+
+          <li class="link4">
+            <img src="./common/images/gallery_4.jpg" alt="" />
+            <strong>더 좋은 내일을 상상하는 대성그룹</strong>
+            <span
+              >역사와 전통을 자랑하는 대성그룹은 탄탄한 사업의 뿌리를 내려<br />
+              내실 있는 기업으로 성장하고 있습니다.
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="dock">
+        <span class="mbutton btn1"></span>
+        <span class="mbutton btn2"></span>
+        <span class="mbutton btn3"></span>
+        <span class="mbutton btn4"></span>
+        <span class="ps"><i class="fa-regular fa-circle-stop"></i></span>
+      </div>
+      <span class="btn btnLeft"><i class="fa-solid fa-angle-left"></i></span>
+      <span class="btn btnRight"><i class="fa-solid fa-angle-right"></i></span>
+    </div>
+    <!--비주얼끝-->
+
+    <!--그래프시작-->
+    <article></article>
+    <!--그래프끝-->
+
+    <!--주요산업소개시작-->
+    <article id="content">
+      <h2 class="hidden">본문콘텐츠영역</h2>
+      <section class="introduction">
+        <h3 class="industryIntro">주요산업소개</h3>
+        <div class="conBox1">
+          <div class="redBox">
+            <ul class="topTxt">
+              <li>
+                <p>
+                  대성은 에너지자원개발과 국민생활<br />에너지 보급에
+                  최선을다합니다.
+                </p>
+              </li>
+              <li>
+                <p>
+                  세계 유수의 공급업체들로부터 (파워컨트롤) 정밀기류를 수입하고
+                  국산화하여 공급하고 있습니다.
+                </p>
+              </li>
+              <li>
+                <p>
+                  지하자원이 극도로 빈약한 국내에너지환경을 극복하고자 직접
+                  석탄, 석유 및 천연가스등 해외자원개발에 사업화를 이루었습니다.
+                </p>
+              </li>
+              <li>
+                <p>
+                  IT 하드웨어 및 소프트웨어 공급 뿐만 아니라 시스템 개발, 운영
+                  등 다양한 분야에 솔루션을 제공하고 있습니다.
+                </p>
+              </li>
+            </ul>
+            <div class="click">
+              <img class="con" src="./images/mainconbox_1.jpg" alt="" />
+              <ul>
+                <li>
+                  <a href="./sub2/sub2_1.html#tracking1">석유가스사업부</a>
+                </li>
+                <li><a href="./sub2/sub2_1.html#tracking2">기계사업부</a></li>
+                <li>
+                  <a href="./sub2/sub2_1.html#tracking3">해외자원개발사업부</a>
+                </li>
+                <li>
+                  <a href="./sub2/sub2_1.html#tracking4">정보시스템사업부</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="con1right">
+            <ul>
+              <li>
+                <dl>
+                  <dt>석유가스사업부</dt>
+                  <dd>
+                    친환경적인 연료충전 공급으로<br />
+                    환경보존의 앞서나가겠습니다.
+                    <a class="more" href="./sub2/sub2_2.html#tracking1"
+                      >더보기</a
+                    >
+                  </dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt>기계사업부</dt>
+                  <dd>
+                    산업용 로봇(Nachi) 및 자동화기기를 고객의 요구에<br />최적화하고
+                    있습니다.
+                    <a class="more" href="./sub2/sub2_2.html#tracking2"
+                      >더보기</a
+                    >
+                  </dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt>해외자원개발사업부</dt>
+                  <dd>
+                    에너지자원 개발의 수직계열화 작업에 박차를 가하여 에너지
+                    선도<br />기업으로서의 사명감을 다하고 있습니다.
+                    <a class="more" href="./sub2/sub2_2.html#tracking3"
+                      >더보기</a
+                    >
+                  </dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt>정보시스템사업부</dt>
+                  <dd>
+                    풍부함 경험과 기술적 노하우를 바탕으로 미래지향적인
+                    컴퓨팅<br />환경을 구현하고 있습니다.
+                    <a class="more" href="./sub2/sub2_2.html#tracking4"
+                      >더보기</a
+                    >
+                  </dd>
+                </dl>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!--주요산업소개끝-->
+
+      <!--윤리경영 / 사회공헌시작-->
+      <section class="ethics">
+        <h3>윤리경영/사회공헌</h3>
+        <ul>
+          <li>
+            <div>
+              <h4>윤리경영</h4>
+              <p>
+                대성은 임직원의 자율적인<br />
+                직업윤리의식을 제고와<br />
+                윤리적 기업문화를 정착에<br />
+                혼신을 다하고 있습니다.
+              </p>
+              <a href="#"
+                ><span class="hidden">더보기</span
+                ><i class="fa-solid fa-circle-plus"></i
+              ></a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h4>사회공헌</h4>
+              <p>
+                대성은 기업이윤의 사회환원을 통해<br />
+                기업의 사회적 책임을 다하고 있으며<br />
+                정기적으로 다양한 문화행사를<br />
+                개최하여 지역사회 발전에<br />
+                기여하고 있습니다.
+              </p>
+              <a href="#"
+                ><span class="hidden">더보기</span
+                ><i class="fa-solid fa-circle-plus"></i
+              ></a>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!--윤리경영 / 사회공헌끝-->
+
+      <!--뉴스시작-->
+      <section id="dg-container" class="dg-container">
+        <div class="top">
+          <h3>Latest News</h3>
+          <a href="./sub6/sub6_4.html"
+            ><span class="_more"><i class="fa-solid fa-circle-plus"></i></span
+          ></a>
+        </div>
+        <div class="dg-wrapper">
+          <a href="#"
+            ><img src="./images/main_dg-container_3.jpg" alt="image05" />
+            <div>
+              <p>
+                대성산업, 바이러스·비말 보호장구 출시 반도체용 클린룸 기술로
+                고안
+              </p>
+              <span>2022-04-04</span>
+            </div>
+          </a>
+          <a href="#"
+            ><img src="./images/main_dg-container_4.jpg" alt="image05" />
+            <div>
+              <p>
+                대성히트에너시스, 태양광 BIPV 시장 공략 차별성을 높이기 위한
+                노력
+              </p>
+              <span>2022-05-27</span>
+            </div>
+          </a>
+          <a href="#"
+            ><img src="./images/main_dg-container_5.jpg" alt="image05" />
+            <div>
+              <p>대성쎌틱의 자동온도조절시스템, KS인증 획득</p>
+              <span>2022-06-11</span>
+            </div>
+          </a>
+          <a href="#"
+            ><img src="./images/main_dg-container_1.jpg" alt="image05" />
+            <div>
+              <p>대성쎌틱, 서울 사각지대 취약계층에 친환경보일러 기부</p>
+              <span>2022-07-23</span>
+            </div>
+          </a>
+          <a href="#"
+            ><img src="./images/main_dg-container_2.jpg" alt="image05" />
+            <div>
+              <p>대성쎌틱, 지스타 허브와 각방시스템 A/S 업무 협약 체결</p>
+              <span>2022-06-28</span>
+            </div>
+          </a>
+        </div>
+        <nav>
+          <span class="dg-prev"><i class="fa-solid fa-angle-left"></i></span>
+          <span class="dg-next"><i class="fa-solid fa-angle-right"></i></span>
+        </nav>
+      </section>
+      <!--뉴스끝-->
+
+      <!-- <section class="news">
+                <h3>Latest News</h3>
+    
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="./images/news1_08.jpg" alt="">
+                            <p>대성히트에너시스, 태양광 BIPV 시장 공략
+                                차별성을 높이기 위한 노력
+                            </p>
+                            <span>2022-07-23</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/news2_10.jpg" alt="">
+                            <p>대성쎌틱, 지스타 허브와 각방시스템
+                                A/S 업무 협약 체결</p>
+                                <span>2022-07-23</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/news3_10.jpg" alt="">
+                            <p>대성쎌틱, 서울 사각지대 취약계층에
+                                친환경보일러 기부
+                                </p>
+                                <span>2022-07-23</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/news4_10.jpg" alt="">
+                            <p>대성산업, 바이러스·비말 보호장구 출시
+                                반도체용 클린룸 기술로 고안.
+                            </p>
+                            <span>2022-07-23</span>
+                        </a>
+                    </li>
+                </ul>
+                
+                 <a href="#"><span class="hidden">이전</span><i class="fa-solid fa-angle-left"></i></a>
+                 <a href="#"><span class="hidden">다음</span><i class="fa-solid fa-angle-right"></i></a>
+                 <a href="#"><span class="hidden">더보기</span><i class="fa-solid fa-circle-plus"></i></a>
+               
+            </section> -->
+
+      <!--인사채용시작-->
+      <section class="recruit">
+        <h3>인사채용</h3>
+        <p>
+          새로운 변화의 시대에 새로운 창조를 위한 변화와<br />
+          도전의 선두에서 대성과 미래를 함께 할 여러분을 기다리고 있습니다
+        </p>
+        <a class="more" href="./sub5/sub5_1.html">바로가기</a>
+      </section>
+      <!--인사채용끝-->
+    </article>
+    <? include "./common/main_footer.html" ?>
+    <script src="./mainjs/move.js"></script>
+    <!-- 공지팝업 -->
+    <div
+      id="showimage"
+      style="
+        z-index: 40;
+        position: absolute;
+        width: 322px;
+        left: 1400px;
+        top: 250px;
+      "
+    >
+      <script>
+        function closeWin() {
+          var chk = document.getElementById("Notice");
+          if (chk.checked) {
+            setCookie("Notice", "done", 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+          }
+        }
+        if (getCookie("Notice") == "done") {
+          hidebox();
+        }
+      </script>
+      <div>
+        <img
+          src="./popup/popup.png"
+          alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다."
+        />
+      </div>
+      <div style="font-size: 12px; text-align: center; color: #666">
+        <input
+          type="checkbox"
+          name="Notice"
+          id="Notice"
+          value=""
+          title="오늘은 이창을 열지 않음 선택상자"
+        /><label for="Notice">오늘은 이창을 열지 않음.</label>
+        <a href="#" onclick="closeWin();hidebox();return false;"> [close] </a>
+      </div>
+    </div>
+    <script src="./mainjs/jquery.gallery.js"></script>
+    <script src="./mainjs/modernizr.custom.53451.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        $("#dg-container").gallery();
+      });
+    </script>
+    <script src="./mainjs/main.js"></script>
+  </body>
+</html>

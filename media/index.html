@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>반응형웹</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png" />
+    <link rel="apple-touch-startup-image" href="startup.png" />
+
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/video.js"></script>
+
+    <script>
+      // <![CDATA[
+      try {
+        window.addEventListener(
+          "load",
+          function () {
+            setTimeout(scrollTo, 0, 0, 1);
+          },
+          false
+        );
+      } catch (e) {}
+      // ]]>
+    </script>
+  </head>
+
+  <body>
+    <div id="skipNav">
+      <a href="#content">본문바로가기</a>
+      <a href="#gnb">네비게이션바로가기</a>
+    </div>
+
+    <div id="wrap">
+      <div class="videoBox">
+        <video autoplay loop muted id="videoBG"></video>
+        <img src="images/back.jpg" id="imgBG" />
+
+        <a class="down" href="#">SCROLL DOWN</a>
+      </div>
+
+      <header id="headerArea">
+        <div class="headerInner">
+          <h1><a href="#">로고</a></h1>
+          <nav id="gnb">
+            <h2 class="hidden">네비게이션영역</h2>
+            <ul>
+              <li>
+                <h3><a href="#">About</a></h3>
+              </li>
+              <li>
+                <h3><a href="#">Character</a></h3>
+              </li>
+              <li>
+                <h3><a href="#">Trailer</a></h3>
+              </li>
+              <li>
+                <h3><a href="#">Gallery</a></h3>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <article id="content">
+        <h2 class="hidden">본문콘텐츠영역</h2>
+        <section class="about">
+          <div class="bigImg">
+            <img src="./images/about_big1.jpg" alt="" />
+          </div>
+          <div class="click">
+            <ul>
+              <li>
+                <a href="#"><img src="./images/about_mini1.jpg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./images/about_mini2.jpg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./images/about_mini3.jpg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="txt">
+            <h3>About</h3>
+            <ul>
+              <li>
+                <p>
+                  <strong>ABOUT</strong><br />
+                  This film rolls fire-breathing action, epic adventure and big
+                  laughs into a captivating, fun and original story. Hiccup is a
+                  young Viking who defies tradition and befriends one of his
+                  deadliest foes - a ferocious dragon he calls Toothless.
+                  Together, the unlikely heroes fight against the odds to save
+                  both their worlds in this wonderful, feel-good hit.
+                </p>
+                <span>#HowtoTrainYourDragon</span>
+                <div>
+                        <dl>
+                          <dt>Cast:</dt>
+                          <dd>Jay Baruchel (Hiccup)</dd>
+                          <dd>Gerard Butler (Stoick the Vast)</dd>
+                          <dd>America Ferrera (Astrid)</dd>
+                          <dd>Craig Ferguson (Gobber)</dd>
+                          <dd>Jonah Hill (Snotlout Jorgenson)</dd>
+                          <dd>Kristen Wiig (Ruffnut Thorston)</dd>
+                        </dl>
+                        <dl>
+                          <dt>Crew:</dt>
+                          <dd>Dean DeBlois (Director)</dd>
+                          <dd>John Powell (Music)</dd>
+                          <dd>Bonnie Arnold (Producer)</dd>
+                          <dd>Brad Lewis (Producer)</dd>
+                          <dd>Klaus Badelt (Music)</dd>
+                          <dd>John Powers Middleton (Executive Producer)</dd>
+                          <dd>Chris Sanders (Executive Producer)</dd>
+                        </dl>
+                </div>
+                <span>
+                  Now on Blu-Ray, DVD and Digital<br />
+                  2010 <br />
+                  98 Minutes <br />
+                </span>
+              </li>
+              <li>
+                <p>
+                  <strong>ABOUT</strong><br />
+                  From the award-nominated film How to Train Your Dragon comes
+                  the next chapter in the epic trilogy. When Hiccup and
+                  Toothless discover a secret ice cave filled with hundreds of
+                  wild dragons and a mysterious Dragon Rider, the two friends
+                  find themselves at the center of an epic battle to save the
+                  future of men and dragons!
+                </p>
+                <span>#HowtoTrainYourDragon</span>
+                <div>
+                  <dl>
+                    <dt>Cast:</dt>
+                    <dd>Jay Baruchel (Hiccup)</dd>
+                    <dd>Cate Blanchett (Valka)</dd>
+                    <dd>Gerard Butler (Stoick the Vast)</dd>
+                    <dd>America Ferrera (Astrid)</dd>
+                    <dd>Craig Ferguson (Gobber)</dd>
+                    <dd>Jonah Hill (Snotlout Jorgenson)</dd>
+                    <dd>Kristen Wiig (Ruffnut Thorston)</dd>
+                    <dd>Kit Harington (Eret)</dd>
+                  </dl>
+                  <dl>
+                    <dt>Crew:</dt>
+                    <dd>Dean DeBlois (Director)</dd>
+                    <dd>John Powell (Music)</dd>
+                    <dd>Bonnie Arnold (Producer)</dd>
+                    <dd>Brad Lewis (Producer)</dd>
+                    <dd>Klaus Badelt (Music)</dd>
+                    <dd>John Powers Middleton (Executive Producer)</dd>
+                    <dd>Chris Sanders (Executive Producer)</dd>
+                  </dl>
+                </div>
+                <span>
+                  Now on Blu-Ray, DVD and Digital <br />
+                  2014 <br />
+                  101 Minutes
+                </span>
+              </li>
+              <li>
+                <p>
+                  <strong>ABOUT</strong><br />
+                  From DreamWorks Animation comes a surprising tale about
+                  growing up, finding the courage to face the unknown... and how
+                  nothing can ever train you to let go. What began as an
+                  unlikely friendship between an adolescent Viking and a
+                  fearsome Night Fury dragon has become an epic adventure
+                  spanning their lives.
+                </p>
+                <span>#HTTYDragon</span>
+                <div>
+                  <dl>
+                    <dt>Cast:</dt>
+                    <dd>Jay Baruchel (Hiccup)</dd>
+                    <dd>America Ferrera (Astrid)</dd>
+                    <dd>Cate Blanchett (Valka)</dd>
+                    <dd>Gerard Butler (Stoick the Vast)</dd>
+                    <dd>Craig Ferguson (Gobber)</dd>
+                    <dd>Jonah Hill (Snotlout)</dd>
+                    <dd>Kirsten Wiig (Ruffnut)</dd>
+                    <dd>Justin Rupple (Tuffnut)</dd>
+                    <dd>Kit Harington (Eret)</dd>
+                    <dd>Christopher Mintz-Plasse (Fishlegs)</dd>
+                  </dl>
+                  <dl>
+                    <dt>Crew:</dt>
+                    <dd>Dean DeBlois (Director)</dd>
+                    <dd>Brad Lewis (Producer)</dd>
+                    <dd>Bonnie Arnold (Producer)</dd>
+                    <dd>John Powers Middleton (Executive Producer)</dd>
+                    <dd>John Powell (Music)</dd>
+                    <dd>Chris Sanders (Executive Producer)</dd>
+                  </dl>
+                </div>
+                <span>
+                  On Blu-Ray, DVD & Digital<br />
+                  2019<br />
+                  101 Minutes
+                </span>
+              </li>
+            </ul>
+          </div>
+          
+        </section>
+        <section class="Character">
+          <h3>Character</h3>
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./images/Character_1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="./images/Character_2.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="./images/Character_3.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="./images/Character_4.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="./images/Character_5.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="./images/Character_6.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="./images/Character_7.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="./images/Character_8.jpg" alt=""></div>
+            </div>
+        </section>
+        <section class="Trailer">
+          <div class="trailer">
+            <div class="evenboxinner_title">
+              <h3>Trailer</h3>
+            </div>
+            <div class="trailer_inner">
+              <div class="trailer_left">
+                <a href="./sub3.html">
+                  <div class="img">
+                    <img
+                      src="./images/trailer1.jpg"
+                      alt="트레일러 1번 이미지"
+                    />
+                  </div>
+                  <div class="trailer_info">
+                    <p>How To Train Your Dragon 2 Official Trailer #1</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="trailer_right">
+                <a href="./sub3.html">
+                  <div class="img">
+                    <img
+                      src="./images/trailer2.jpg"
+                      alt="트레일러 2번 이미지"
+                    />
+                  </div>
+                  <div class="trailer_info">
+                    <p>How To Train Your Dragon 2 Official Trailer #2</p>
+                  </div>
+                </a>
+
+                <a href="./sub3.html">
+                  <div class="img">
+                    <img
+                      src="./images/trailer3.jpg"
+                      alt="트레일러 3번 이미지"
+                    />
+                  </div>
+                  <div class="trailer_info">
+                    <p>How To Train Your Dragon 2 Official Trailer #3</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="gallery">
+        <h3>Gallery</h3>
+        <div class="container">
+          <div class="image1">
+            <img src="./images/gallery_1.jpg" alt="img" />
+          </div>
+          <div class="image2">
+            <img src="./images/gallery_2.jpg" alt="img" />
+          </div>
+          <div class="image3">
+            <img src="./images/gallery_3.jpg" alt="img" />
+          </div>
+          <div class="image4">
+            <img src="./images/gallery_4.jpg" alt="img" />
+          </div>
+          <div class="image5">
+            <img src="./images/gallery_5.jpg" alt="img" />
+          </div>
+          <div class="image6">
+            <img src="./images/gallery_6.jpg" alt="img" />
+          </div>
+          <div class="image7">
+            <img src="./images/gallery_7.jpg" alt="img" />
+          </div>
+        </div>
+      </section>
+      </article>
+
+      <footer id="footerArea">
+        <a href="#" class="topMove">
+          <span>top</span>
+        </a>
+        <div class="footer_logo"></div>
+        <p>
+          © 2022 DREAMWORKS ANIMATION ALL RIGHTS RESERVED. PRIVACY POLICY | CA
+          NOTICE | TERMS OF SERVICE | SMS TERMS | YOUTUBE TERMS OF SERVICE |
+          GOOGLE PRIVACY POLICY
+        </p>
+      </footer>
+    </div>
+    <script src="./index_js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+      });
+    </script>
+  </body>
+</html>

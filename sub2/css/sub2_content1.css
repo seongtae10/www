@@ -1,0 +1,56 @@
+#content{width:1200px; margin: 0 auto; }
+#content .contentArea .firstTxt{margin-bottom: 200px; text-align: center;}
+#content .contentArea .firstTxt p{font-size: 1.5em;color: #333; line-height: 2em;}
+#content .contentArea .firstTxt span{font-size: 1.8em; color: #d81408;}
+
+#content .contentArea ul{overflow: hidden; margin-bottom: 100px;}
+
+#content .contentArea ul li{width: 280px;
+    height: 300px;border: 2px solid rgba(0,0,0,.1);margin: 30px 5px;float: left; transition: all .5s; overflow: hidden; background-color: #333;} 
+
+
+#content .contentArea ul li:nth-of-type(1){background: url(../images/content1/sub2_1_1.jpg) no-repeat; background-size: cover;}
+#content .contentArea ul li:nth-of-type(2){background: url(../images/content1/sub2_1_2.jpg) no-repeat; background-size: cover; }
+#content .contentArea ul li:nth-of-type(3){background: url(../images/content1/sub2_1_3.jpg) no-repeat; background-size: cover;}
+#content .contentArea ul li:nth-of-type(4){background: url(../images/content1/sub2_1_4.jpg) no-repeat; background-size: cover;}
+#content .contentArea ul li:nth-of-type(5){background: url(../images/content1/sub2_1_5.jpg) no-repeat; background-size: cover;}
+#content .contentArea ul li:nth-of-type(6){background: url(../images/content1/sub2_1_6.jpg) no-repeat; background-size: cover;}
+#content .contentArea ul li:nth-of-type(7){background: url(../images/content1/sub2_1_7.jpg) no-repeat; background-size: cover;}
+#content .contentArea ul li:nth-of-type(8){background: url(../images/content1/sub2_1_8.jpg) no-repeat; background-size: cover;}
+#content .contentArea ul li:nth-of-type(9){background: url(../images/content1/sub2_1_9.jpg) no-repeat; background-size: cover;}
+#content .contentArea ul li:nth-of-type(10){background: url(../images/content1/sub2_1_10.jpg) no-repeat; background-size: cover;}
+#content .contentArea ul li:nth-of-type(11){background: url(../images/content1/sub2_1_11.jpg) no-repeat; background-size: cover;}
+#content .contentArea ul li:hover{border: 2px solid #d81408; background: #d81408; opacity: .5; }
+
+#content .contentArea ul li dt{font-size: 1.25em; color: #d81408; text-align: center; margin-top: 150px; font-weight: bold; transition: all .5s;}
+#content .contentArea ul li:hover dt{margin-top: 80px; font-size:1.4em ; color: #fff;}
+#content .contentArea ul li img{width: 280px; height: 300px;}
+#content .contentArea ul li dd{font-size: 1.1em;color: #fff;text-align: center;margin: 20px 0; opacity: 0;transition: all .5s;}
+#content .contentArea ul li:hover dd{opacity: 1;}
+#content .contentArea ul li:hover dd address{font-size: 8px; margin-top: 15px;}
+#content .contentArea ul li dd a{display: block;color: #fff;font-size: .95em;padding: 25px 0; opacity: 0;transition: all .5s;}  
+#content .contentArea ul li dd:hover a{opacity: 1;} 
+#content .contentArea ul li dd a i{font-size: 1.25em;}
+
+
+
+
+#content .contentArea .pop .modal_box{position: fixed; left: 0; top: 0; z-index: 50; width: 100%; height: 100%; 
+    background: #000; opacity: .7; display: none;}
+
+#content .contentArea  .pop_btn{position:fixed;z-index: 60; top: 40%; left: 25%;  font-size: 100px;  display: none; margin-left: 500px;}
+#content .contentArea  .pop_btn a{display: block;  margin-top: 0; color: #fff; opacity: .4; transition: all .5s;  position: absolute;}
+#content .contentArea  .pop_btn a:hover{opacity: .9;}
+#content .contentArea  .pop_btn .pre{margin-left: -500px;}
+#content .contentArea  .pop_btn .next{margin-left: 390px;}
+
+#content .contentArea .pop  .popup{position: fixed; top: 50%; left: 50%; margin: -300px 0 0 -300px; 
+    width: 600px; height: 600px; background: #fff; box-shadow: 1px 3px 7px 0px #666;
+    z-index: 60; display:none;}
+#content .contentArea .pop  .popup img{width: 94%; margin:20px 3%;}
+#content .contentArea .pop  .popup dl{width: 94%; margin:10px 3%; text-align: center;}
+#content .contentArea .pop  .popup dt{font-size: 1.2em; font-weight: bold; margin-bottom: 10px; color: orange;}
+
+#content .contentArea .pop  .popup .close_btn{position: absolute; top: 25px; right: 5px; 
+    display: block; text-indent: -999px; overflow: hidden; width: 32px; 
+    height: 32px; padding: 9px 9px; background: url(../images/content1/cancel.png) no-repeat;}

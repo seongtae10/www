@@ -1,0 +1,21 @@
+#content{width:1200px; margin: 0 auto; }
+#content .contentArea .firstTxt{margin-bottom: 200px; text-align: center;}
+#content .contentArea .firstTxt p{font-size: 1.5em;color: #333; line-height: 2em;}
+#content .contentArea .firstTxt span{font-size: 1.8em; color: #d81408;}
+
+#content .contentArea li{margin-bottom: 100px;}
+#content .contentArea .content1_1{overflow: hidden;  width: 1200px; padding: 30px ;}
+#content .contentArea .content1_1:hover{box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .1);}
+#content .contentArea .content1_1 .imgBox{float: left; margin-right: 50px;}
+#content .contentArea .content1_1 img{width: 550px; height: 400px; background: #333;}
+#content .contentArea .content1_1 .conBox1 li{margin-top: 40px;}
+#content .contentArea .content1_1 .conBox1 .topTxt{font-weight: bold; color: #d81408;  margin-bottom: 20px; }
+#content .contentArea .content1_1 .conBox1 h3{font-size: 2em; font-weight: bold; margin-bottom: 40px;}
+#content .contentArea .content1_1 .conBox1 p{text-align: justify;  line-height: 1.5em; margin-bottom: 60px;}
+#content .contentArea .content1_1 .conBox1 a{border: 2px solid #333; padding: 15px 40px; border-radius: 20px;}
+#content .contentArea .content1_1 .conBox1 a:hover{border: 3px solid #d81408; }
+#content .contentArea .content1_1 .bottom {margin-top: 70px; }
+#content .contentArea .content1_1 .bottom .row{overflow: hidden; border-top:1px dotted #222}
+#content .contentArea .content1_1 .bottom .row div{padding-top: 30px;  float: left; width: 400px; font-size: 1.2em; }
+#content .contentArea .content1_1 .bottom .row div span a:hover{color: #d81408;}
+

@@ -1,0 +1,15 @@
+#content{width:1200px; margin: 0 auto; }
+#content .contentArea .firstTxt{margin-bottom: 200px; text-align: center;}
+#content .contentArea .firstTxt p{font-size: 1.5em;color: #333; line-height: 2em;}
+#content .contentArea .firstTxt span{font-size: 1.8em; color: #d81408;}
+
+#content .contentArea h4{font-size: 2em; padding-left: 70px; }
+#content .contentArea .won{padding-right: 70px; text-align: right; display: block; }
+#content .contentArea th, td { border: 1px solid #333; border-collapse: collapse; padding: 10px 0;}
+#content .contentArea table{display: block; font-size: 1.2em; padding: 10px 70px; margin-bottom: 200px;}
+#content .contentArea table thead tr{padding: 30px 10px; font-size: 1.35em;}
+#content .contentArea table thead tr th{width: 250px; background-color:lightgrey}
+#content .contentArea table .item{width: 450px;}
+#content .contentArea table tbody th{text-align: left;}
+#content .contentArea table tbody td{text-align: right; padding-right: 7px;}
+#content .contentArea table .red{color: #d81408;}

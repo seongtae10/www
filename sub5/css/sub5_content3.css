@@ -1,0 +1,60 @@
+#content{width:1200px; margin: 0 auto; }
+#content .contentArea .firstTxt{margin-bottom: 200px; text-align: center;}
+#content .contentArea .firstTxt p{font-size: 1.5em;color: #333; line-height: 2em;}
+#content .contentArea .firstTxt span{font-size: 1.8em; color: #d81408;}
+
+#content .contentArea .firstH{font-size: 2em; text-align: center; font-size: 2em;}
+#content .contentArea .promote img{ width: 1200px; height: 500px; background: #f2f2f2;}
+#content .contentArea .promote p{display: block; text-align: justify; padding: 40px 75px; font-size: 1.2em; background: rgb(218, 218, 218);}
+
+#content .contentArea .twoH{font-size: 2em; margin:200px 0 30px 0;}
+#content .contentArea .contentP{font-size: 1.25em; margin-bottom: 40px;}
+#content .contentArea .training{margin-bottom: 100px; overflow: hidden;}
+#content .contentArea .training li{float: left; margin-right: 100px;}
+#content .contentArea .training li:nth-of-type(1){margin-left: 115px;}
+#content .contentArea .training li:nth-of-type(2) span{background: #666; color: #fff; font-size: 1.1em;}
+#content .contentArea .training li:nth-of-type(3) span{background: #000; color: #fff;}
+#content .contentArea .training li:nth-of-type(3) strong{margin-left: 13px;}
+#content .contentArea .training li:nth-of-type(4) span{background: #d81408; color: #fff;}
+#content .contentArea .training li div{
+    width: 160px;
+    border: 1px dashed #ddd;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+#content .contentArea .training li span{
+    display: block;
+    width: 130px;
+    height: 130px;
+    background-color: #e4e4e4;
+    color: #333;
+    border-radius: 50%;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 130px;
+    margin: 14px;
+}
+#content .contentArea .training li strong{margin-left:  16px;}
+
+#content .contentArea dl{
+    border-bottom: 1px solid #ddd;
+    padding: 40px 20px;
+}
+#content .contentArea dl::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#content .contentArea dl:nth-of-type(1){border-top: 2px solid #444;}
+#content .contentArea dl:nth-of-type(6){margin-bottom: 200px}
+#content .contentArea dl dt{float: left;
+    width: 300px;
+    height: 100px;
+    font-size: 1.2em;
+    margin-right: 50px;
+}
+#content .contentArea dl dd{
+    font-size: 1.125rem;
+    text-align: justify;
+    margin-bottom: 6px;
+}

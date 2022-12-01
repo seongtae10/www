@@ -1,0 +1,22 @@
+#content{width:1200px; margin: 0 auto; }
+#content .contentArea .firstTxt{margin-bottom: 200px; text-align: center;}
+#content .contentArea .firstTxt p{font-size: 1.5em;color: #333; line-height: 2em;}
+#content .contentArea .firstTxt span{font-size: 1.8em; color: #d81408;}
+#content .contentArea .symbol h3{font-size: 2.5em; font-weight: bold; color: #333; margin-bottom: 100px;}
+#content .contentArea .symbol img{display: block; margin: 0 auto;}
+#content .contentArea .symbol p{font-size: 1.4em;text-align: center;margin: 30px 100px;line-height: 2em; }
+#content .contentArea .symbol span{font-weight: bold;}
+
+#content .contentArea .color{margin-top: 100px;}
+#content .contentArea .color h3{font-size: 2.5em; font-weight: bold; color: #333; margin-bottom: 100px;}
+#content .contentArea .color .redBox span{display: block; font-size: 1.2em; text-align: center;margin: 20px 0;}
+#content .contentArea .color .colorBox{width: 600px; height: 80px; margin: 0 auto; background: #d12c1c; }
+#content .contentArea .color .subCol{margin-top: 80px; text-align: center; }
+#content .contentArea .color .subCol div{display: block; margin: 100px 0;}
+#content .contentArea .color .subCol span{display: block;margin: 20px 0;}
+
+#content .contentArea .logotype{margin-top: 100px; }
+#content .contentArea .logotype .logoBack{width: 1200px; overflow: hidden;  margin-bottom: 200px;padding: 50px; background: #f6f6f6;}
+#content .contentArea .logotype .logoBack img{width: 532px; height: 200px; float: left;}
+#content .contentArea .logotype .logoBack p{text-align: justify;line-height: 1.5em;font-size: 20px;margin-left: 560px;}
+#content .contentArea .logotype h3{font-size: 2.5em; font-weight: bold; color: #333; margin-bottom: 100px;}

@@ -1,0 +1,361 @@
+<?
+	session_start();
+?>
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>신용등급</title>
+    <link rel="stylesheet" href="../common/css/common.css" />
+    <link rel="stylesheet" href="./common/css/sub4common.css" />
+    <link rel="stylesheet" href="./css/sub4_content3.css" />
+
+    <script
+      src="https://kit.fontawesome.com/a015222d5c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+  </head>
+  <body>
+    <? include "../common/sub_header.html" ?>
+
+    <div class="main">
+      <img src="./common/images/sub4_main.jpg" alt="" />
+      <h3>경영정보</h3>
+    </div>
+
+    <div class="subNav">
+      <ul>
+        <li><a href="./sub4_1.html">요약재무제표</a></li>
+        <li><a href="./sub4_2.html">경영실적</a></li>
+        <li><a class="current" href="./sub4_3.html">신용등급</a></li>
+      </ul>
+    </div>
+
+    <article id="content">
+      <div class="titleArea">
+        <div class="lineMap">
+          <span>HOME</span>&gt;<span>경영정보</span>&gt;<strong
+            >신용등급</strong
+          >
+        </div>
+        <h2>신용등급</h2>
+      </div>
+      <div class="contentArea">
+        <!-- 본문 콘텐츠 영역 -->
+        <div class="firstTxt">
+          <p>
+            <span>역사와 전통을 자랑하는 대성그룹</span><br />
+            대성은 투명한 경영을 통해 믿음을 드리겠습니다.
+          </p>
+        </div>
+
+        <h4>신용평가등급 - 국내</h4>
+        <div class="mt25">
+          <table>
+            <colgroup>
+              <col style="width: 330px" />
+              <col style="width: 280px" />
+              <col style="width: 280px" />
+              <col style="width: 280px" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th scope="col">구분</th>
+                <th scope="col">신용등급</th>
+                <th scope="col">신용평가기관</th>
+                <th scope="col">평가일</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="boLN" rowspan="2">채권신용평가</td>
+                <td>AA</td>
+                <td>한국기업평가</td>
+                <td>2022년 05월 13일</td>
+              </tr>
+              <tr>
+                <td>AA</td>
+                <td>NICE신용평가</td>
+                <td>2022년 05년 03일</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h4>신용평가등급 - 해외</h4>
+        <div class="mt25">
+          <table>
+            <colgroup>
+              <col style="width: 330px" />
+              <col style="width: 280px" />
+              <col style="width: 280px" />
+              <col style="width: 280px" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th scope="col">구분</th>
+                <th scope="col">신용등급</th>
+                <th scope="col">신용평가기관</th>
+                <th scope="col">평가일</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="boLN" rowspan="2">기업신용평가</td>
+                <td>BBB+</td>
+                <td>S&P</td>
+                <td>2021년 09월 02일</td>
+              </tr>
+              <tr>
+                <td>Baa1</td>
+                <td>Moody's</td>
+                <td>2022년 03월 10일</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h4>신용평가등급 정의</h4>
+        <div>
+          <table class="define">
+            <colgroup>
+              <col style="width: 160px" />
+              <col style="width: 120px" />
+              <col style="width: 130px" />
+              <col style="width: 130px" />
+              <col style="width: 550px" />
+              <col style="width: 120px" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th scope="col" rowspan="2">구분</th>
+                <th scope="col" rowspan="2">국내신용<br />등급체계</th>
+                <th scope="col" colspan="2" class="type2">해외신용등급체계</th>
+                <th scope="col" rowspan="2">부여 의미</th>
+                <th scope="col" rowspan="2">비고</th>
+              </tr>
+              <tr>
+                <th scope="col" class="type2 boL">Moody’s</th>
+                <th scope="col" class="type2">S&P</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="boLN" rowspan="10">기업신용평가, 채권신용평가</td>
+                <td>AAA</td>
+                <td>Aaa</td>
+                <td>AAA</td>
+                <td class="taL">
+                  원리금 지급 확실성이 최고수준이며, 현단계에서 합리적으로
+                  예측가능한 장래의 어떠한 환경변화에도 영향을 받지않을 만큼
+                  안정적임.
+                </td>
+                <td rowspan="4">투자<br />적격</td>
+              </tr>
+              <tr>
+                <td>AA</td>
+                <td>Aa</td>
+                <td>AA</td>
+                <td class="taL">
+                  원리금 지급 확실성이 매우 높지만 AAA등급에 비해 다소 열등한
+                  요소가 있음.
+                </td>
+              </tr>
+              <tr>
+                <td>A</td>
+                <td>A</td>
+                <td>A</td>
+                <td class="taL">
+                  원리금 지급 확실성이 높지만 장래 급격한 환경변화에 따라 다소
+                  영향을 받을 가능성이 있음.
+                </td>
+              </tr>
+              <tr>
+                <td>BBB</td>
+                <td>Baa</td>
+                <td>BBB</td>
+                <td class="taL">
+                  원리금 지급 확실성은 인정되지만 장래 환경변화로 전반적인
+                  채무상환능력이 저하될 가능성이 있음.
+                </td>
+              </tr>
+              <tr>
+                <td>BB</td>
+                <td>Ba</td>
+                <td>BB</td>
+                <td class="taL">
+                  원리금 지급 확실성에 당면 문제는 없지만 장래의 안정성면에서는
+                  투기적 요소가 내포되어 있음.
+                </td>
+                <td rowspan="6">투기<br />등급</td>
+              </tr>
+              <tr>
+                <td>B</td>
+                <td>B</td>
+                <td>B</td>
+                <td class="taL">
+                  원리금 지급 확실성이 부족하여 투기적이며, 장래의 안정성에
+                  대해서는 현단계에서 단언할 수 없음.
+                </td>
+              </tr>
+              <tr>
+                <td>CCC</td>
+                <td>Caa</td>
+                <td>CCC</td>
+                <td class="taL">
+                  채무불이행이 발생할 가능성을 내포하고 있어 매우 투기적임.
+                </td>
+              </tr>
+              <tr>
+                <td>CC</td>
+                <td>Ca</td>
+                <td>CC</td>
+                <td class="taL">
+                  채무불이행이 발생할 가능성이 높아 상위등급에 비해 불안요소가
+                  더욱 많음.
+                </td>
+              </tr>
+              <tr>
+                <td>C</td>
+                <td>C</td>
+                <td>C</td>
+                <td class="taL">
+                  채무불이행이 발생할 가능성이 극히 높고 현단계에서는 장래
+                  회복될 가능성이 없을 것으로 판단됨.
+                </td>
+              </tr>
+              <tr>
+                <td>D</td>
+                <td>-</td>
+                <td>D</td>
+                <td class="taL">원금 또는 이자 지급불능 상태에 있음.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 class="last">IR자료실 목록</h3>
+        <table class="credit">
+          <colgroup>
+            <col width="10%" />
+            <col width="15%" />
+            <col width="30%" />
+            <col width="10%" />
+            <col width="20%" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="col">번호</th>
+              <th scope="col">구분</th>
+              <th scope="col">제목</th>
+              <th scope="col">날짜</th>
+              <th scope="col">관련자료</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span id="repeater__ctl0_dum_no">6</span>
+              </td>
+              <td class="left">
+                <span id="repeater__ctl0_itemGubn">사업보고서</span>
+              </td>
+              <td class="left">제12기 사업보고서</td>
+              <td>2022-03-17</td>
+              <td class="download">
+                <a href="#">
+                  <i class="fa-solid fa-file-arrow-down">다운로드</i>
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span id="repeater__ctl1_dum_no">5</span>
+              </td>
+              <td class="left">
+                <span id="repeater__ctl1_itemGubn">감사보고서</span>
+              </td>
+              <td class="left">제12기 연결감사보고서</td>
+              <td>2022-03-17</td>
+              <td class="download">
+                <a href="#">
+                  <i class="fa-solid fa-file-arrow-down">다운로드</i></a
+                >
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span id="repeater__ctl2_dum_no">4</span>
+              </td>
+              <td class="left">
+                <span id="repeater__ctl2_itemGubn">감사보고서</span>
+              </td>
+              <td class="left">제12기 감사보고서</td>
+              <td>2022-03-17</td>
+              <td class="download">
+                <a href="#">
+                  <i class="fa-solid fa-file-arrow-down">다운로드</i>
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span id="repeater__ctl3_dum_no">3</span>
+              </td>
+              <td class="left">
+                <span id="repeater__ctl3_itemGubn">사업보고서</span>
+              </td>
+              <td class="left">제11기 사업보고서</td>
+              <td>2021-03-18</td>
+              <td class="download">
+                <a href="#">
+                  <i class="fa-solid fa-file-arrow-down">다운로드</i>
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span id="repeater__ctl4_dum_no">2</span>
+              </td>
+              <td class="left">
+                <span id="repeater__ctl4_itemGubn">감사보고서</span>
+              </td>
+              <td class="left">제11기 연결감사보고서</td>
+              <td>2021-03-18</td>
+              <td class="download">
+                <a href="#">
+                  <i class="fa-solid fa-file-arrow-down">다운로드</i>
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span id="repeater__ctl5_dum_no">1</span>
+              </td>
+              <td class="left">
+                <span id="repeater__ctl5_itemGubn">감사보고서</span>
+              </td>
+              <td class="left">제11기 감사보고서</td>
+              <td>2021-03-18</td>
+              <td class="download">
+                <a href="#">
+                  <i class="fa-solid fa-file-arrow-down">다운로드</i>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+    <? include "../common/sub_footer.html" ?>
+  </body>
+</html>

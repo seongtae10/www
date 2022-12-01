@@ -1,0 +1,166 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family: 'Noto Sans KR', sans-serif; font-size: 16px;color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none;}
+img{border: 0; vertical-align: top}
+.hidden{display: block; position: absolute;
+    left: -1000%; width: 1px; height: 1px;
+    overflow: hidden; color: #fff;}
+
+#skipNav{position:relative;width:100%;overflow:hidden;z-index:60}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+        font-size: 1.2em;color:#333;
+        overflow:hidden; text-align:center;}
+#skipNav a:hover, #skipNav a:focus, #skipNav a:active{
+    height:auto;padding:10px 0; background:#f2f2f2;}
+
+.wrap{width: 100%; overflow: hidden;}
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+/* header 공통영역 */ 
+#headerArea{position: fixed; z-index: 50; margin: 0 auto; width: 100%; height: 135px; transition:background .5s;}
+#headerArea.on{background: #fff;  box-shadow: 1px 1px 5px 0 rgba(0,0,0,.3);}
+#headerArea .headerInner{width: 1200px; margin: 0 auto; overflow: hidden;}
+#headerArea .headerInner::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#headerArea .headerInner::after{content:''; display: block; clear: both;}  
+#headerArea .logo{float: left; margin: 30px 0 0 30px;} 
+#headerArea .logo a{width: 129px; height: 58px; text-indent: -9999px; display: block; 
+    background: url(../images/logowhite.png) no-repeat;}
+#headerArea.on .logo a{background: url(../images/logoBlack.png) no-repeat;}
+
+  #headerArea #gnb{overflow: hidden;  float: left; margin-top: 25px;}
+#headerArea #gnb .dropdownmenu{ margin-left: 20px; height: 400px; width: 100%;}
+#headerArea #gnb .dropdownmenu::after{content: ''; display: block; clear: both;}
+#headerArea #gnb .dropdownmenu h3 a{font-size: 1.250em; color: #fff; padding:  35px 35px;   display: block;}
+#headerArea.on #gnb .dropdownmenu h3 a{color: #333;}
+
+
+#headerArea #gnb .dropdownmenu > li{float: left;  position: relative;}
+#headerArea #gnb .dropdownmenu li a:first{padding-left: 0;}
+#headerArea #gnb ul.dropdownmenu li ul{width:100%; height:265px; position:absolute;top: 100px;left:0; display: none;}
+#headerArea #gnb ul.dropdownmenu li ul a{color: #fff;}
+#headerArea.on #gnb ul.dropdownmenu li ul a{color: #333;}
+#headerArea.on #gnb ul.dropdownmenu li ul a:hover{color: #d12c1c;}
+#gnb ul.dropdownmenu li ul li{ text-align:center;} 
+
+#headerArea .dropdownmenu li.menu{position: relative; float: left; width: 16.66%;}
+#headerArea .dropdownmenu > li ul li a{display:block; font-size:1.125rem; line-height: 2.5; letter-spacing:-0.045rem; color:#666; transition:color .3s}
+
+
+/* login영역 */
+#headerArea .headerInner .loginBox{ float: left;margin-top: 15px;}
+#headerArea .headerInner .login{margin-top: 40px; margin-bottom: 50px;}
+#headerArea .headerInner .login a{color: #fff;}
+#headerArea.on .headerInner .login a{color: #333;}
+#headerArea .headerInner .login li{float: left; margin: 10px;} 
+
+/* footer 공통영역 */ 
+
+#footerArea{background:#f2f2f2;}
+#footerArea .footerInner{width: 1200px; padding-bottom: 50px; margin: 0 auto; position: relative;}
+#footerArea .footerTop{overflow: hidden;}
+#footerArea .footerTop img{float: left; margin: 20px 0 20px 0;}
+#footerArea .footerTop ul{overflow: hidden; margin: 50px 0 0 200px;}
+#footerArea .footerTop li{float: left; margin-left: 20px;}
+#footerArea address{line-height: 1.5em; margin: 0 0 20px 220px;}
+#footerArea p{margin-left:220px;}
+/*
+#footerArea .family{width: 250px; background: #ccc;position:absolute; right:0; top:50px}    
+#footerArea .family>a{display: block; padding: 20px 0 20px 20px;background: #333; color: #fff; font-size: 16px;
+transition: all .5s ease-out;}
+#footerArea .family>a:hover{background: #d12c1c;}
+#footerArea .family ul{width: 250px; position: absolute; top:-320px; left:0; display:none;}
+#footerArea .family ul a{display: block;padding: 20px 0 20px 20px; background: #999;transition: all .5s ease-out;}
+#footerArea .family ul a:hover{background: #ccc; color: #fff;}*/
+
+a{ color:#333;}
+.select{
+    width:150px; 
+    height:25px;
+    background:#fff;
+    border:1px solid #ccc; 
+    position:relative;  
+    margin:50px;
+    width: 250px; background: #ccc;position:absolute; right:0; top:50px;
+    padding: 5px 0;
+}
+.select .arrow{ display:block; font-size:1em;padding-top:1px; text-align: center;}
+.select .arrow:hover{color:#666}
+.select .aList{ position:absolute; top:-248px; left:-1px; width:250px; border:1px solid #ccc; display:none}
+.select .aList li{ line-height:1.5em; border-bottom:1px solid #ccc;}
+.select .aList li a{display:block;text-align: center; padding: 5px 5px; background: #999;transition: all .5s ease-out;}
+.select .aList li a:hover{background: #ccc; color: #fff;}
+
+.topMove{
+    position: fixed;
+    display: block;
+    left: 50%;
+    margin-left: 700px;
+    bottom: 200px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #d12c1c;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+}
+.topMove:hover{
+    background: url(../images/rocket_03.png)center bottom no-repeat;
+    width: 64px;
+    height: 115px;
+    border-radius: 0;
+    text-indent: -9999px;
+    
+    padding: 5px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

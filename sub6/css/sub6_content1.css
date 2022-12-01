@@ -1,0 +1,46 @@
+#content{width:1200px; margin: 0 auto; }
+#content .contentArea .firstTxt{margin-bottom: 200px; text-align: center;}
+#content .contentArea .firstTxt p{font-size: 1.5em;color: #333; line-height: 2em;}
+#content .contentArea .firstTxt span{font-size: 1.8em; color: #d81408;}
+
+.tabs .tab_menu{width: 600px; margin: 0 auto; overflow: hidden; margin-bottom: 20px;}
+.tabs .tab_menu li{float: left; width: 200px; text-align:center ;}
+.tabs a.tab {
+    display:block;
+    font-size: 1.25em;
+    background: #fff; color: #333; 
+    font-weight: bold;padding: 10px 0; 
+    transition: all .5s;
+    padding: 10px 40px;
+} 
+.tabs .contlist {} 
+.tabs .contlist h4{font-size: 2em; font-weight: bold; margin-bottom: 30px;}
+
+.location{}
+.location dl{padding:70px 0;}
+.location dl::after{content:''; display: block; clear: both;}
+.location dl + dl{border-top:1px dotted #ddd;}
+.location dl dt{float:left; font-size:1.5625rem; font-weight:700; letter-spacing:-0.025rem;
+    animation:ttl 1 .8s ease-out; animation-fill-mode: forwards; animation-delay: .5s; opacity: 1;
+}
+.location dl dt span{display: block; font-size:1.125rem; font-weight: 300; margin:5px 0 0;}
+.location dl dd{float:right; width: 850px; padding-left:70px; border-left:1px dotted #ddd; box-sizing:border-box; line-height:1.8; font-size:1.125rem; color:#666;
+    animation:cont 1 .8s ease-out; animation-fill-mode: forwards; animation-delay: .5s; opacity: 1;
+}
+.location dl dd ul{}
+.location dl dd ul li{overflow:hidden; margin:10px 0 0;}
+.location dl:nth-child(2) dd ul li+li{border-top:1px dotted #ddd; padding-top:40px; margin-top:40px;}
+.location dl dd ul li:first-child{margin:0;}
+.location dl dd ul li > span{float:left; color:#333; font-weight:700;}
+.location dl dd ul li p{padding-left:105px; word-break:keep-all;}
+.location dl dd ul li p strong{font-weight:normal; display:block; color:#333;}
+.location dl dd ul li p span{display:block;}
+.location dl dd ul li p i{display:inline-block; width: 30px; text-align:center; font-style:normal; font-size:0.75rem; background:#bbbfc5; color:#fff; border-radius:3px; margin-right:7px; vertical-align:text-bottom;}
+.location dl dd ul li p i.bus_b{background:#6175f5;}
+.location dl dd ul li p i.bus_r{background:#ff451e;}
+.location dl dd ul li p i.bus_g{background:#47af1b;}
+.location dl dd ul li p i.bus_c{background:#00afbd;}
+/*카카오주소*/
+#content .contentArea #home{width: 1200px; height: 600px;}
+#content .contentArea #home2{width: 1200px; height: 600px;}
+#content .contentArea #home3{width: 1200px; height: 600px;}

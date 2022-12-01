@@ -1,0 +1,12 @@
+#content{width:1200px; margin: 0 auto; }
+#content .contentArea .firstTxt{margin-bottom: 200px; text-align: center;}
+#content .contentArea .firstTxt p{font-size: 1.5em;color: #333; line-height: 2em;}
+#content .contentArea .firstTxt span{font-size: 1.8em; color: #d81408;}
+
+#content .contentArea h4{font-size: 2em;  }
+#content .contentArea .won{ text-align: right; display: block; }
+#content .contentArea table{display: block; font-size: 1.2em; margin: 0 auto; margin-bottom: 100px; border-top: 1px solid #d81408; border-bottom: 1px solid #d81408; font-size: 1.2em;}
+#content .contentArea th, td {border-top: 1px solid #d81408;  border-collapse: collapse; padding: 10px 0; }
+#content .contentArea table thead tr{padding: 30px 10px; font-size: 1.2em;}
+#content .contentArea table thead tr th{width: 300px; background-color:#f9d3d1}
+#content .contentArea table tbody td{text-align: center;}

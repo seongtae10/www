@@ -1,0 +1,31 @@
+#content{width:1200px; margin: 0 auto; }
+#content .contentArea .firstTxt{margin-bottom: 200px; text-align: center;}
+#content .contentArea .firstTxt p{font-size: 1.5em;color: #333; line-height: 2em;}
+#content .contentArea .firstTxt span{font-size: 1.8em; color: #d81408;}
+
+
+
+/* CSS Document */
+
+#content .contentArea .faq{width:1200px; font-size: 1.3em; margin-bottom: 200px;}  
+#content .contentArea .faq .hgroup{position:relative;margin-bottom: 30px;}
+
+#content .contentArea .faq .hgroup a span{font-size: 1.3em; text-align: center;}
+#content .contentArea .faq .hgroup h4{font-size: 1.9em;}
+#content .contentArea .faq .hgroup .all{position:absolute; top:52px; right:0; font-size: 1.1em; width: 200px; height: 40px; border: 1px dotted #ddd; text-align: center;}
+#content .contentArea .faq .hgroup .all:hover{background: #d12c1c; color: #fff; transition: all .5s; font-size: 1.3em;}
+#content .contentArea .faq ul li{ border-bottom :1px solid #ddd; }
+#content .contentArea .faq .q{ position: relative; width: 100%;}  
+#content .contentArea .faq .q a.trigger{display:block;padding:30px 15px;text-align:left;}  
+#content .contentArea .faq .hide .q a.trigger{background:none}  
+#content .contentArea .faq .q a.trigger:hover,  
+.faq .q a.trigger:active,  
+.faq .q a.trigger:focus{background:'';} 
+#content .contentArea .faq .q span{display: block; position: absolute; right: 15px; top:30px} 
+#content .contentArea .faq .a{
+    padding:5px 15px;
+    line-height:1.5em; 
+    display: none;
+    height: 100%;
+    
+}

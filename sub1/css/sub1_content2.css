@@ -1,0 +1,53 @@
+/* CEO인사말 본문영역 */
+#content{width:1200px; margin: 0 auto; }
+
+#content .contentArea{position: relative;}
+#content .contentArea div:first-child{margin-bottom: 200px; text-align: center;}
+#content .contentArea div:first-child p{font-size: 1.5em;color: #333; line-height: 2em; text-align: center;}
+#content .contentArea div:first-child span{font-size: 1.8em; color: #d81408;}
+#content .contentArea ul{width: 1200px; margin: 0 auto;}
+#content .contentArea ul li{overflow: hidden;}
+#content .contentArea .boxTwo li:last-child{margin-top: 100px; margin-bottom: 150px;}
+#content .contentArea .business{margin-top: 100px;}
+#content .contentArea ul li img{width: 600px; height: 400px;   }
+#content .contentArea ul li:first-child img{margin-right: 50px;float: left;}
+#content .contentArea ul li:last-child img{margin-left: 50px;float: right;}
+#content .contentArea ul li h3{font-size: 2.5em; color: #333; font-weight: bold; margin-top: 30px; margin-bottom: 40px;}
+#content .contentArea ul li p{font-size: 1.2em; line-height: 1.5em; text-align: justify;}
+
+/* #content .contentArea .manageMent{width: 1200px; margin: 0 auto;}
+#content .contentArea .manageMent h3{font-size: 2.5em; color: #333; font-weight: bold; text-align: center; }
+#content .contentArea .manageMent .firstP{font-size: 1.2em; line-height: 1.5em; text-align: justify; margin-top: 20px;}
+#content .contentArea .manageMent ul{width: 1200px; background: #f6f6f6;}
+#content .contentArea .manageMent li{}
+#content .contentArea .manageMent i{font-size: 130px; background: #fff; border-radius: 100%; padding: 80px;}
+#content .contentArea .manageMent .fa-solid fa-users{font-size: 70px; padding-left: 50px; padding-right: 50px;} 
+#content .contentArea .manageMent h4{font-size: 1.5em; font-weight: bold; }
+#content .contentArea .manageMent span{font-size: 0.875em;}
+#content .contentArea .manageMent p{font-size: 1.2em; line-height: 1.5em; text-align: justify;} */
+#content .contentArea .manageMent{width: 1200px; margin: 0 auto;}
+#content .contentArea .manageMent h3{font-size: 2.5em; color: #333; font-weight: bold; text-align: center; }
+#content .contentArea .manageMent .firstP{font-size: 1.2em; line-height: 1.5em; text-align: center;margin: 40px;}
+#content .contentArea .manageMent ul{width: 1200px; background: #f6f6f6; overflow: hidden; margin-bottom: 200px; }
+#content .contentArea .manageMent li{width: 350px; padding-bottom: 50px; }
+#content .contentArea .manageMent .economic{float: left; margin-right: 50px; margin-left: 25px;}
+#content .contentArea .manageMent .social{float: left; margin-right: 50px;}
+#content .contentArea .manageMent .holding{float: left; }
+#content .contentArea .manageMent li span:first-child{display: block; width: 200px; height: 200px; background: #fff; border-radius: 100px;
+                                 margin: 50px auto 0; position: relative;transition: all .5s;}
+#content .contentArea .manageMent i{font-size: 100px; position: absolute; left:40px; top:50px; transition: all .5s;}
+#content .contentArea .manageMent li:first-child i{left:50px}
+#content .contentArea .manageMent li:hover i{color: #fff;}
+#content .contentArea .manageMent li:hover span:first-child{background: #d81408;}
+
+#content .contentArea .manageMent h4{font-size: 1.5em; font-weight: bold; text-align: center; margin-top: 70px;}
+#content .contentArea .manageMent li span:nth-of-type(2){font-size: 0.875em; color: #999; text-align: center;  display: block;}
+#content .contentArea .manageMent p{font-size: 1.2em; line-height: 1.5em; text-align: justify;margin-top: 25px;padding: 0 30px;}
+
+
+.contentArea .mainconBox{background: #f6f6f6;}
+.contentArea .mainconBox>div{width: 1200px; margin: 0 auto; position: relative; margin-top: 400px; margin-bottom: 100px;}
+.contentArea .mainconBox>div::before{content: ''; display: block; position: absolute;
+          left:50px; top:-315px;
+            width:390px ; height:440px ; background: url(../images/content1/sub-person11_03.png);}
+.contentArea .mainconBox>div::after{content: ''; display: block; clear: both;}

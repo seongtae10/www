@@ -1,0 +1,234 @@
+/*비주얼 영역*/
+.main{width: 2000px; position: relative; left: 50%; top: 0; margin-left: -1000px; height: 960px; background: #000;}
+.main dl{position: absolute; left:50%; top: 300px; color: #fff;}
+.main dt{font-size: 4em; margin-bottom: 20px;}
+.main dd{font-size: 1.2em;}
+
+.main .gallery{position:relative;left:0; top:0; overflow:hidden;}
+.main .gallery li{ position: relative; display: none;}
+
+.main .gallery img{animation: ani 30s linear infinite;}
+@keyframes conBox1{
+    from{transform:translateX(-100px); opacity:0;}
+    to {transform:translateX(0); opacity:1;}}
+
+.main .gallery li strong{position: absolute; left: 500px; top: 370px; font-size: 2.5em; color: #fff;}
+.main .gallery li span{position: absolute; left: 500px; top: 450px; font-size: 1.8em; color: #fff;}
+
+.main .dock{width:330px; position:absolute; left:850px; top: 900px;}
+
+.main .dock .mbutton{ margin-right:15px; cursor:pointer; 
+    display:block; float:left; width:60px; height:4px;
+   background: #fff; border-radius:2px;
+  transition: all .5s}
+
+.main .dock .ps{ margin-right:15px; margin-top: -10px; cursor:pointer; 
+    display:block; float:left; width:30px; height:30px; color: #fff;
+    }
+
+.main .btn{display: block; width: 70px; height: 70px; background: #d12c1c; opacity: .6;
+        position: absolute;  top:400px;cursor:pointer; margin-left: 48px;}
+.main .btn:hover{opacity: .8; transition: all .5;}
+.main .btnLeft{border-bottom: 1px solid #777;}
+.main .btnRight{ margin-top: 70px; }    
+.main .btn i{font-size: 2.5em; margin: 20px 24px;}
+
+/*본문 콘텐츠영역*/
+#content{width: 1200px;margin: 0 auto;}
+#content .more{display: block; padding:  10px 0; color: #fff; 
+    background: #d12c1c; width: 150px;border-radius: 15px;
+    border: 2px solid rgba(255,0,0,0); text-align: center;
+    transition: all .5s;}
+#content .more:hover{color:#d12c1c; background: #fff; 
+        border-color:#d12c1c ; box-shadow: 1px 1px 10px 0 rgba(0,0,0,.4);}
+
+
+
+#content .introduction {opacity: 0; transition: all .5s ease-in; position: relative;}
+#content .introduction.active {opacity: 1; }
+#content .introduction .industryIntro{font-size: 3.125em; text-align: center; margin-top: 105px; margin-bottom: 85px;}
+#content .conBox1{ position: relative; overflow: hidden; }
+#content .conBox1 .redBox{width: 600px; height: 900px; background: #d12c1c; float: left;  }
+#content .conBox1 .redBox .topTxt li{padding:0 50px; display: none; height: 100px; }
+#content .conBox1 .redBox .topTxt p{font-size: 1.8em; color: #fff; line-height: 1.5em; margin-top: 92px; text-align: justify; background: #fff; border-radius: 20px; color: #d12c1c; padding: 30px 30px;} 
+#content .conBox1 .click{font-size: 1.5em; margin-top: 270px; 
+    border-left: solid #fff; padding-left: 30px; margin-left: 54px;}
+#content .conBox1 .click ul li{margin-bottom: 15px;}
+#content .conBox1 .redBox .click a{color: #fff; padding:10px; display: block; width: 230px;
+    border-radius: 5px; text-align: center;}
+#content .conBox1 .redBox .click a.current{background: #fff; color:#d12c1c; position: relative; }
+#content .conBox1 .redBox .click a.current::before{
+	content: ''; 
+	display: block;
+    width: 20px; height: 20px; 
+	border-radius: 10px; 
+	background: #fff;
+    position: absolute; left: -41px;top: 15px
+}
+#content .conBox1 .con1right{width: 600px; height: 400px; float: right; }
+#content .conBox1 .con1right li{display: none;}
+#content .conBox1 .con1right dl{ text-align: center; margin-top: 92px;}
+#content .conBox1 .con1right dl a{margin: 0 auto;margin-top: 35px;}
+#content .conBox1 .con1right dl a:hover{background: #fff; color: #d12c1c;}
+#content .conBox1 .con1right dt{font-size: 2.250em; font-weight: bold; margin-bottom: 25px;}
+#content .conBox1 .con1right dd{font-size: 1.250em; padding: 0 20px;}
+#content .conBox1 .click img{position: absolute; bottom: 55px; right: 15px;
+    box-shadow: 2px 2px 15px 0 rgb(0,0,0,.3); }
+
+
+
+
+
+#content .ethics{opacity: 0; transition: all .5s ease-in; position: relative; bottom: -100px;}
+#content .ethics.active{opacity: 1; bottom: 0; }
+#content .ethics h3{font-size: 3.125em; text-align: center;  margin-top: 105px; margin-bottom: 85px;}
+#content .ethics ul{overflow: hidden;  padding: 0 90px 0 90px;}
+#content .ethics ul li{width: 500px; height: 500px; float: left; position: relative;}
+#content .ethics ul li div{width: 500px; height: 500px; background: rgba(0,0,0,0);overflow: hidden;
+              transition: all .5s;}
+#content .ethics ul li:hover div{background: rgba(0,0,0,.4);}              
+#content .ethics li:first-child{background: url(../images/ethics1_09.jpg); margin-right: 20px;}
+#content .ethics li:last-child{background: url(../images/ethics33.jpg);}
+#content .ethics h4{font-size: 40px; color: #fff; font-weight: 500; text-align: center;
+      margin: 200px 0 30px 0; transition: all .5s;}
+#content .ethics li:hover h4{margin-top:100px ; font-size: 44px;}
+#content .ethics li p{text-align: center; line-height: 1.5em; color: #fff; font-size: 1.2em; opacity: 0;
+                 margin-bottom: 30px;
+                 transition: all .5s;}
+#content .ethics li:hover p{opacity: 1;}
+#content .ethics li a{color: #fff; font-size: 2.5em; display: block; text-align: center; opacity: 0;
+     transition: all .5s;}
+#content .ethics li:hover a{opacity: 1; }
+#content .ethics li:hover a:hover{color: #d12c1c;}
+
+
+/* .news{ position: relative;}
+
+.news h3{font-size: 3.125em; margin-top: 105px; margin-bottom: 30px;}
+.news ul{overflow: hidden;padding:30px 15px;}
+.news li{width: 240px; float: left; margin-right: 15px;padding: 15px; box-shadow: 1px 1px 10px 0 rgba(0,0,0,.3);
+     transition: all .5s; }
+.news li:hover{box-shadow: 1px 1px 15px 0 rgba(0,0,0,.5); transform: scale(1.05);}
+.news li img{width: 240px; margin-bottom: 15px; transition: all .5s;}
+.news li:hover img{filter: grayscale(100%);}
+.news li p{text-align: justify; line-height: 1.5em;}
+.news li span{display: block; color: #999;}
+.news>a{font-size: 2em; color: #ccc; position: absolute;top:30px; display: block; transition: all .5s;}
+.news>a:hover{color: #d12c1c;}
+.news>a:nth-of-type(1){right:150px}
+.news>a:nth-of-type(2){right:110px}
+.news>a:nth-of-type(3){right:50px} */
+
+
+
+.recruit{background: url(../images/back_02.jpg); width: 1200px; height: 488px;  margin-top: 320px; color: #fff; 
+   overflow: hidden; margin-bottom: 100px; opacity: 0; transition: all .3s ease-in;}
+.recruit.active{opacity: 1;}
+.recruit h3{font-size: 3.125em; margin: 100px 0 50px 50px;}
+.recruit p{font-size: 1.5em; margin: 0 0 30px 50px;}
+.recruit .more{margin-left: 50px;}
+
+
+
+
+.dg-container{
+	width: 100%;
+	height: 450px;
+	position: relative;
+	opacity: 0;
+	margin-bottom: 230px;
+	left: -1000px;
+}
+.dg-container.active{
+	opacity: 1;
+	transition: all .5s ease-in;
+	left: 0;
+}
+.dg-container h3{
+    font-size: 3.125em; margin-top: 105px; margin-bottom: 115px;
+}
+.dg-wrapper{
+	width: 480px;
+	height: 320px;
+	margin: 0 auto;
+	position: relative;
+	transform-style: preserve-3d;
+	perspective: 1000px;
+}
+.dg-wrapper a{
+	width: 480px;
+	height: 320px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+}
+.dg-wrapper a.dg-transition{
+	transition: all 0.5s ease-in-out;
+}
+.dg-wrapper a img{
+	display: block;
+	padding: 0px ;
+}
+.dg-wrapper a div{
+	text-align: center;
+	line-height: 18px;
+	text-shadow: 0px 1px 1px 1px rgba(255,255,255,0.5);
+	color: #333;
+	font-size: 1em;
+	width: 100%;
+	bottom: -55px;
+	display: none;
+	position: absolute;
+}
+.dg-wrapper a div span{
+    font-size: .8em;
+    display: block;
+    margin-top: 10px;
+}
+.dg-wrapper a.dg-center div{
+	display: block;
+}
+.dg-container nav{
+	width: 110px;
+	left: 50%;
+	margin-left: -29px;
+    font-size: 2.3em;
+    font-weight: bold;
+    position: relative;
+    color: #ccc;
+    
+}
+.dg-container nav span{
+	position: absolute;
+	float: left;
+	cursor:pointer;
+	opacity: 0.8;
+	top: 100px;
+    transition: all .5s;
+}
+.dg-container nav span:hover{
+	opacity: 1;
+    color: #d12c1c;
+}
+.dg-container nav span.dg-next{
+	background-position: top right;
+	margin-left: 50px;
+}
+.dg-container .top{
+    position: relative;
+	margin-bottom: 20px;
+}
+.dg-container .top ._more{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    font-size: 2.3em;
+    font-weight: bold;
+    transition: all .5s;
+    color: #ccc;  
+}
+.dg-container .top ._more:hover{
+    color: #d12c1c;
+}

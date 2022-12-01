@@ -1,0 +1,22 @@
+#content{width:1200px; margin: 0 auto; }
+#content .contentArea .firstTxt{margin-bottom: 200px; text-align: center;}
+#content .contentArea .firstTxt p{font-size: 1.5em;color: #333; line-height: 2em;}
+#content .contentArea .firstTxt span{font-size: 1.8em; color: #d81408;}
+
+#content .contentArea h4{font-size: 1.5em; margin-bottom: 30px;}
+#content .contentArea th, td { border-collapse: collapse; border: 1px solid rgb(218, 218, 218) }
+#content .contentArea table{display: block; font-size: 1.2em;  margin-bottom: 200px;}
+
+
+#content .contentArea .mt25 th,td{padding: 15px 10px; text-align: center;}
+
+#content .contentArea .define{}
+#content .contentArea .define thead tr th{padding: 14px 0;}
+#content .contentArea .define tbody{text-align: center;}
+#content .contentArea .define tbody tr{}
+#content .contentArea .define tbody tr td{}
+#content .contentArea .define tbody tr td{padding: 15px;}
+#content .contentArea .define tbody tr .taL{text-align: left;}
+
+#content .contentArea .last{font-size: 1.5em; margin-bottom: 30px;}
+.credit tbody tr .download:hover{color: #d81408;}

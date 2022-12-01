@@ -1,0 +1,37 @@
+#content{width:1200px; margin: 0 auto; }
+#content .contentArea .firstTxt{margin-bottom: 200px; text-align: center;}
+#content .contentArea .firstTxt p{font-size: 1.5em;color: #333; line-height: 2em;}
+#content .contentArea .firstTxt span{font-size: 1.8em; color: #d81408;}
+
+
+#content .contentArea .tabBox .tab ul{overflow: hidden; width: 1200px; margin: 0 auto;  }
+#content .contentArea .tabBox .tab ul li{float: left; width: 300px; text-align: center; font-size:1.3em;  }
+#content .contentArea .tabBox ul li a{ display: block; padding: 25px 0; border-top: 3px solid rgba(0,0,0,0);border-bottom: 3px solid rgba(0,0,0,0); transition: all .5 ease-in-out; }
+#content .contentArea .tabBox ul li a:hover{background: #f6bebb; border-bottom: 3px solid #d81408; }
+#content .contentArea .history_wrap{margin-top: 70px; margin-bottom: 200px; position: relative;}
+#content .contentArea .history_wrap::before{content: ''; display: block;width: 3px; height:3878px; background: #d81408;
+                    position: absolute; left:300px; top:0}
+#content .contentArea .history_wrap h3{float:left; position:relative; width: 300px; color:#d81408; font-weight:700; font-size:2.1875rem;}
+#content .contentArea .history_wrap .year dl{margin-left:400px; border-top:1px dotted #333; padding:25px 0; position: relative;}
+#content .contentArea .history_wrap .year dl::before{content: ''; display: block; width: 20px; height: 20px;
+           border-radius: 10px; background: #d81408; position: absolute; left:-108px; top:30px; opacity: 0; transition: all .5s;}
+#content .contentArea .history_wrap .year dl:hover::before{content: ''; opacity: 1;}
+#content .contentArea .history_wrap .year dl::after{content:''; display: block; clear: both;}
+#content .contentArea .history_wrap .year:nth-of-type(1) dl:nth-of-type(1){border-top:0 none;}
+#content .contentArea .history_wrap .year dl dt{float:left; font-size:1.25rem; font-weight:700;}
+#content .contentArea .history_wrap .year dl dd{line-height:1.6; margin-left:130px; font-size:1.125rem; color:#666; overflow:hidden;}
+#content .contentArea .history_wrap .year dl dd + dd{margin-top:7px;}
+#content .contentArea .history_wrap .year dl dd span{float:left; color:#999;}
+#content .contentArea .history_wrap .year dl dd p{margin-left:60px;} 
+
+
+/*tab*/
+#content .contentArea .tabBox{transition:all .3s;}
+#content .contentArea .tabBox.on{position:fixed; left:0; width: 100%; top: 0; background:#d12c1c; z-index:101;}
+#content .contentArea .tabBox.on .tab{width:1200px; margin:0 auto;}
+#content .contentArea .tabBox.on .tab ul{margin: 0 auto;}
+#content .contentArea .tabBox.on .tab li{transition:background .3s;}
+#content .contentArea .tabBox.on .tab li a{border:0 none; color:rgba(255,255,255,.5);}
+#content .contentArea .tabBox.on .tab li.current{background:#fff;}
+#content .contentArea .tabBox.on .tab li.current a{color:#d12c1c; font-weight:700;}
+#content .contentArea .tabBox.on li.current a::before{display:none;}
